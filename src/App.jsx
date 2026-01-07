@@ -50,7 +50,7 @@ export default function App() {
     setInput("");
 
     try {
-      const res = await axios.post("http://localhost:5000/chat", {
+      const res = await axios.post("https://pluxces-bot-backend.onrender.com/chat", {
         message: input,
       });
 
